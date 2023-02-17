@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,8 +55,6 @@
                                  Busqueda de Personal
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="">
                             <img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQklEQVR4nO3YvUrDYBgF4Le6CA6CUwMuqZND6R/VIrx4G+ImuDWKDk4qDiIO3oKzbk5RQ6JSaC7C5hayeAHCkaTFgn+tQsgXOA98kCVw3vwePhGi/DhlnOyWsSGm0cjFpFXbD+BYSNbrwRIWxSQ6IXz9KIAtYRL+rWthS0yjv4RvnPqwSyHsmT66FnbERDoKu3bjQQfj8M3zUfhSiOaZjx/PH8TIYslfBmhdBGnQ6uYz9OUOrUs/verJo9M4DtKBjB6gfeWhMjcMvNLpwZ4N0+P64ePHHTF6AI1crF57qMwPh0hWbW8cvhADaOSic/uA5YU+qttPX15oMZV+Crreu//2iySm0il+ZEYPQETTYZ3OCut03pR1Os6/zLVZp2PW6X9jnSaiYnC4O50R1um8Ket0zDqt3J2OuDudH+XuNJEUxTtqQFDLLkWLpwAAAABJRU5ErkJggg==">
@@ -120,28 +120,21 @@
         <main>
             <div class="page-header">
                 <div>
-                    <h3>Bienvenidos al Sistema de Inventarios de ATENTO.</h3>
-
-                    
-                </div>
-                <div class="parrafohome">
-                    <h3>Entrega de Dotaciones</h3>
-                    <div class="parrafo1">
-                        <p>La ley laboral contempla la obligación del empleador de entregarles la dotación a sus empleados por lo menos 3 veces al año. Esto permite la correcta ejecución del contrato de trabajo con las herramientas que faciliten su desarrollo.
-                            El artículo 230 del Código Sustantivo del Trabajo –CST– contempla la obligación de hacer entrega de la dotación, consistente en el suministro de calzado y vestido para ejercer la labor contratada, según las necesidades que se requieran.
-                            </p>
-                        
-                    </div>
-                    <div class="parrafo2">
-                        <p>
-                            Artículo 232: dispone que los empleadores “obligados a suministrar permanente calzado y vestido de labor a sus trabajadores harán entrega de dichos elementos en las siguientes fechas del calendario: 30 de abril, 31 de agosto y 20 de diciembre”.
-
-                        </p>
-                    </div>
-
+                    <h3>Analitics Dashboard y REPORTES 2023</h3>
+                    <small>Monitor key metrics. 
+                        Reportes</small>
                 </div>
 
-                
+                <div>
+                    <button>
+                        <span class="las la-file-export"></span>
+                        Export
+                    </button>
+                    <button>
+                        <span class="las la-tools"></span>
+                        Settings
+                    </button>
+                </div>
             </div>
         </main>
     </div>
