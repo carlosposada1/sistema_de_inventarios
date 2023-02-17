@@ -31,7 +31,7 @@ main{
     width: 38%;
     justify-content: center;
     text-align: center;
-    margin-left: 95px;
+    margin-left: 97px;
     margin-top: auto;
     
 }
@@ -129,29 +129,36 @@ main{
 
 .contenedor__login-register form p{
     font-size: 16px;
-    text-align: left;
-    margin-bottom: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    padding-top: 2px;
     color: #113f6e;
+    margin-top: -5px;
 }
 
 .contenedor__login-register form input{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 2px;
     padding: 10px;
     font-size: 16px;
+    border-radius: 30px;
+    border:2px solid rgba(1, 66, 106, 0.6);
     outline: none;
+    margin-bottom: 20px;
     
 }
 
 .contenedor__login-register form button{
     padding: 10px 40px;
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 16px;
     background: rgb(5, 80, 126);
     color: white;
     cursor: pointer;
     outline: none;
     border:2px solid rgba(1, 66, 106, 1);
+    border-radius: 30px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
