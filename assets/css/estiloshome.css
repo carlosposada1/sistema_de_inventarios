@@ -16,12 +16,12 @@
     top: 0;
     height: 100%;
     padding: 1rem 1.7rem;
-    background: rgba(14, 61, 90, 1);
+    background: rgba(1, 66, 106, 1);
     color: #fff;
 }
 
 .barralateral-brand {
-    height: 100px;
+    height: 70px;
     
 
 }
@@ -37,7 +37,7 @@
 }
 
 .barralateral-user {
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
     text-align: center;
 }
 .barralateral-user img {
@@ -94,11 +94,42 @@
     margin-bottom: .8rem;
 }
 
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fefcfc;
+    padding: 1rem 1.5rem;
+
+}
+
+.menu-toggle label {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.header-icons span {
+    display: inline-block;
+    margin-left: .7rem;
+    font-size: 1.4rem;
+}
+
+.menu-toggle label:hover {
+    background: #efefef;
+}
+
 .main-content {
     margin-left: 300px;
 
 }
 
-header {
-    
+main {
+    padding: 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 70px);
 }
